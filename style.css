@@ -1,0 +1,265 @@
+.nev{
+	display: flex;
+	justify-content: space-between;
+}
+.nev li{
+	list-style-type: none;
+	display: flex;
+
+}
+.nev0{
+	border: 2px solid gainsboro;
+	box-shadow: 5px 5px 25px gainsboro ;
+	padding: 15px;
+	border-radius: 30px;
+	padding-bottom: 5px;
+}
+.nev0 a{
+	padding-left: 10px;
+	border: none;
+}
+.nev0 i{
+	background-color: red;
+	font-size: 23px;
+	border-radius: 30px;
+    width: 30px;
+    height: 30px;
+    padding-top: 0px;
+    text-align: center;
+	margin-top: -5px;
+
+}
+.nev a{
+	text-decoration: none;
+}
+.nev1{
+	margin-right: 50px;
+	display: flex;
+}
+.nev3{
+	padding: 15px;
+}
+.nev3 a:hover{
+	border: 2px solid gainsboro;
+	padding: 10px;
+	border-radius: 30px;
+	background-color: gainsboro;
+
+}
+.nev3 i{
+	font-size: 20px;
+}
+.nev2{
+	display: flex;
+    border-radius: 30px;
+    border: 2px solid gainsboro;
+    padding-top: 1px;
+    font-size: 15px;
+    padding-left: 0px;
+    height: 40px;
+    margin-top: 5px;
+    padding-right: 0px;
+    box-sizing: border-box;
+
+}
+.nev2 a:hover{
+	border: 2px solid gainsboro;
+	border: none;
+	box-shadow: 5px 5px 25px gainsboro ;	
+	border-radius: 30px;
+
+}
+.nev2 div{
+	padding: 10px;
+}
+
+/*<------============--------->*/
+
+.scroll0{
+	display: flex;
+	justify-content: center;
+	height: 60px;
+	margin-top: 20px;
+}
+.scroll{
+	display: flex;
+	padding: 5px;
+	overflow-x: scroll;
+	width: 60%;
+/*	margin-left: 0px;*/
+}
+.scroll li{
+	list-style-type: none;
+	padding: 10px;
+}
+.scroll a{
+	text-decoration: none;
+}
+.scroll p{
+	margin-top: 0px;
+	padding-left: 10px;
+}
+.scroll img{
+	width: 20px;
+	padding-left: 15px;
+}
+.scroll::-webkit-scrollbar{
+	display: none;
+}
+.scroll1{
+	border: 2px solid gainsboro;
+    margin-left: 15px;
+    border-radius: 20px;
+    font-size: 20px;
+    height: 50px;
+    padding-right: 10px;
+}
+.scroll1 i{
+	padding: 15px;
+}
+.scroll2{
+	border: 2px solid gainsboro;
+	border-radius: 20px;
+    margin-left: 15px;
+    font-size: 20px;
+    padding-left: 10px;
+    height: 50px;
+}
+.scroll2 i{
+	padding: 15px;
+}
+/*<====================>*/
+.divi{
+	width: 400px;
+	height: 400px;
+	background-color: white;
+	position: absolute;
+	top: 80px;
+	left: 400px;
+	display: none;
+}
+.divi a{
+	text-decoration: none;
+}
+#input5:checked~.divi{
+	display: block;
+	position: fixed;
+}
+
+.img3{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+}
+.img{
+	margin: 10px;
+}
+.img a{
+	text-decoration: none;
+}
+.img img{
+	border-radius:15px d}
+.fa1{
+	position: relative;
+	left: 250px;
+	top: 40px;
+	color: red;
+	font-size: 20px;
+}
+.img1{
+	padding-top: 10px;
+}
+/*<========================>*/
+		.footer{
+			padding: 10px;
+			padding-left: 15px;
+
+
+		}
+		.footer a{
+			padding: 10px;
+			text-decoration: none;
+			font-size: 20px;
+			color: #717171;
+		}
+		.footer0{
+			padding-left: 15px;
+		}
+		hr{
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+
+		.footer1{
+			display: flex;
+			justify-content: space-evenly;
+			padding: 5px;
+			margin-top: 50px;
+			margin-left: -90px;
+		}
+		.footer1 li{
+			list-style-type: none;
+		}
+		.footer1 li a{
+			text-decoration: none;
+			padding: 5px;
+		}
+		.footer2{
+			display: flex;
+			justify-content: space-evenly;
+			margin-top: 25px;
+			margin-left: -90px;
+		}
+		.footer2 li{
+			list-style-type: none;
+		}
+		.footer2 li a{
+			text-decoration: none;
+			padding: 5px;
+		}
+		.footer1 span a{
+			color:#717171 ;
+		}
+		.footer2 span a{
+			color: #717171;
+		}
+		.footer3{
+			display: flex;
+			justify-content: space-between;
+			margin-top: 50px;
+		}
+		.footer3 li{
+			list-style-type: none;
+		}
+		.footer3 li a{
+			text-decoration: none;
+			padding: 5px;
+		}
+		.footer3 li p a{
+			color: #717171;
+		}
+		.footer4 a{
+			text-decoration: none;
+			color: #717171;
+		}
+		.footer4{
+			margin-left: 10px;
+		}
+		.footer5{
+			float: right;
+
+		}
+		.footer5 a{
+			text-decoration: none;
+			color: black;
+		}
+		.footer6{
+			height: 50px;
+			display: flex;
+			justify-content: space-between;
+			margin-top: 50px;
+
+		}
+
+
+
+
